@@ -4,30 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Awesome Books</title>
 </head>
 <body>
-   <header>
-        <h1 class="heading">Awesome Books</h1>
-   </header>
  <main>
-     <div class="awesome">
-     <div id="books-listcontainer">
-    </div> 
-<section class="books-adding">
-    <hr>
+<div class="awesomebooks">
+<section class="displayed-books" id="displayed-books">
+    <h2 class="headingmain">All awesome books</h2>
+        <ul id="book-list"></ul><br>
+</section>
+<section class="add-awesombooks">
+    <hr class="line">
     <form class="form1" id="book-form">
-    <div class="form-input">
-        <h3 class="add-book"></h3>
-        <label for="title"></label>
+    <div class="form-input-value">
+        <h3 class="add-book">Add a new book</h3>
         <input type="text" class="title" id="title" placeholder="Title" required >
     </div><br>
-    <div class="form-input">
-        <label for="author"></label>
+    <div class="form-input-value">
         <input type="text" class="author" id="author" placeholder="Author" required >
     </div><br>
-    <button type="submit" id="submit">add</button>
+    <button type="submit" class="add">Add</button>
     </form>
 </section>
 </div>

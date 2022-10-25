@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 70vh;
+}
+
+.headingmain {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 2%;
+}
+
+.awesomebooks {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+}
+
+#book-list {
+  border: solid;
+  min-width: 65vw;
+  padding-left: 0;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+#book-list::-webkit-scrollbar {
+  display: none;
+}
+
+#book-list ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.book-item p {
+  align-self: flex-start;
+}
+
+input {
+  height: 40px;
+}
+
+.line {
+  height: 3px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.form1 {
+  width: 50vw;
+}
+
+.add-book {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.form-input-value {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 10px 25px;
+}
+
+.add {
+  margin-left: 84%;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #fff;
+}
