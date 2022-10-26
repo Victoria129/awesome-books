@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+<div class="awesomebooks">
+<section class="displayed-books" id="displayed-books">
+    <h2 class="headingmain">All awesome books</h2>
+        <ul id="book-list"></ul><br>
+</section>
+<section class="add-awesombooks">
+    <hr class="line">
+    <form class="form1" id="book-form">
+    <div class="form-input-value">
+        <h3 class="add-book">Add a new book</h3>
+        <input type="text" class="title" id="title" placeholder="Title" required >
+    </div><br>
+    <div class="form-input-value">
+        <input type="text" class="author" id="author" placeholder="Author" required >
+    </div><br>
+    <button type="submit" class="add">Add</button>
+    </form>
+</section>
+</div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
