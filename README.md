@@ -5,7 +5,9 @@ we will also need to dynamically modify the DOM and add or remove events.
 
 
 # WORKFLOW SCREENSHOT 
-
+![screenshot](./image/home.PNG)
+![screenshot](./image/add.PNG)
+![screenshot](./image/contact.PNG)
 
 ## Built With
 
