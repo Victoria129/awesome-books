@@ -46,6 +46,14 @@ main {
   display: none;
 }
 
+.contact-me ul {
+  list-style-type: square;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
 #book-list ul {
   list-style-type: none;
 }
@@ -55,6 +63,10 @@ li {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+}
+
+footer p {
+  margin: 2%;
 }
 
 .book-item p {
@@ -97,11 +109,9 @@ input {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
 * {
   font-family: 'Comfortaa', sans-serif;
 }
-
 
 header {
   display: flex;
@@ -111,10 +121,6 @@ header {
   font-size: 1.2rem;
   width: 100vw;
   border: solid beige;
-}
-
-.header ul {
-  list-style-type: none;
 }
 
 .nav-list {
@@ -159,21 +165,6 @@ header {
   margin-left: 2%;
 }
 
-.contact-me ul {
-  list-style-type: square;
-}
-
-#book-list ul {
-  list-style-type: none;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
 #book-list:nth-child(odd) {
   background: #fff;
 }
@@ -182,23 +173,8 @@ li {
   background: #fff;
 }
 
-footer p {
-  margin: 2%;
-}
-
-.book-item p {
-  align-self: flex-start;
-}
-
 hr {
   width: 20%;
-}
-
-.add {
-  margin-left: 84%;
-  width: 5rem;
-  height: 2.5rem;
-  background-color: aquamarine;
 }
 
 .delete {
@@ -207,10 +183,6 @@ hr {
   width: 5rem;
   height: 3rem;
   background-color: blanchedalmond;
-}
-
-input {
-  height: 40px;
 }
 
 .contact-me {
