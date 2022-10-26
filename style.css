@@ -94,3 +94,150 @@ input {
   height: 2.5rem;
   background-color: #fff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: red;
+  font-size: 1.2rem;
+  width: 100vw;
+  border: solid beige;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35vw;
+}
+
+.listt {
+  margin-right: -2rem;
+}
+
+.nav-list li a {
+  /* color: white; */
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nav-list li a:hover {
+  color: aquamarine;
+}
+
+.nav-list li a.active {
+  color: blue;
+}
+
+.time-div {
+  display: flex;
+  color: black;
+  justify-content: right;
+  width: 90vw;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 2%;
+}
+
+.contact-me ul {
+  list-style-type: square;
+}
+
+#book-list ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#book-list:nth-child(odd) {
+  background: #fff;
+}
+
+#book-list:nth-child(even) {
+  background: #ccc;
+}
+
+footer p {
+  margin: 2%;
+}
+
+.book-item p {
+  align-self: flex-start;
+}
+
+hr {
+  width: 20%;
+}
+
+.add {
+  margin-left: 84%;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: aquamarine;
+}
+
+.delete {
+  align-self: flex-end;
+  align-content: center;
+  width: 5rem;
+  height: 3rem;
+  background-color: blanchedalmond;
+}
+
+input {
+  height: 40px;
+}
+
+.contact-me {
+  display: none;
+  flex-direction: column;
+  align-self: center;
+  height: 70vh;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.books-adding {
+  display: none;
+  flex-direction: column;
+  align-self: center;
+  z-index: 22;
+}
+
+footer {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 100vw;
+  border: solid beige;
+  font-weight: 700;
+}
